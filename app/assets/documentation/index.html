@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Wisten HTML Theme Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Wisten HTML Theme&rdquo; Documentation by &ldquo;Gold Eyes&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Wisten HTML Theme&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 07/01/2014<br>
+					By: Gold Eyes<br>
+					Email: <a href="mailto:support@goldeyestheme.com">Support</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing Wisten HTML Theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/goldeyes">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>The Theme uses valid HTML 5 and comes with predefined classes for common elements needed in web design. And this theme coded as a onepage.</p>
+		
+		<img src="assets/images/htmlstructure.jpg" alt="HTML Structure" />
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+<pre>	#primaryContent a {
+		color: #someColor;
+	} 
+</pre>
+
+		<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+		<p>I.E.</p>
+
+<pre>	#wrap #primaryContent a {
+		color: #someColor;
+	}
+</pre>
+
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using three CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general style CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. And we used a media screen CSS file for responsive design.</p> 
+
+		<p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre>	/* === Header === */
+
+	some code
+
+	/* === Slider === */
+	
+	some code
+	
+	/* === About === */
+	
+	some code
+	
+	/* === Services === */
+	
+	some code
+	
+	etc, etc. 
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+
+<pre>	#services .round img {
+		change styles here:
+	}
+</pre>
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports three Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>My custom scripts</li>
+			<li>Some plugin</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>Most of the animation in this site is carried out from the customs scripts. There are a few functions worth looking over.
+<pre>	[some Javascript goes here...along with an general explanation]
+	[some Javascript goes here...along with an general explanation]
+	[some Javascript goes here...along with an general explanation]
+</pre>
+			</li>
+			<li>In addition to the custom scripts, I implement a few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method. For example:
+<pre>	[some Javascript goes here...along with an general explanation]</pre>
+			</li>
+		</ol>
+				
+		<hr>
+
+	    <h3 id="credits"><strong>D) Sources And Credits</strong> - <a href="#toc">top</a></h3>
+
+	  <h3>Fonts;</h3>
+	  <ol>
+	     <li><a href="http://www.google.com/fonts/specimen/Roboto+Condensed" target="_blank">Roboto Condensed Font Family</a> - Google font and<small></small> <a href="http://www.fontsquirrel.com/fonts/roboto" target="_blank">download link.</a></li>
+          <li><a href="http://www.dafont.com/es/brannboll.font?text=Wisten" target="_blank">Brannboll Font (Only Logo)</a> </li>
+	  </ol>
+	  
+	   <h3>Icons;</h3>
+	  <ol>
+	     <li><a href="http://www.iconarchive.com/show/my-seven-icons-by-itzikgur.html" target="_blank">Efective iconset</a></li>
+          <li><a href="http://www.brankic1979.com/icons/" target="_blank">PNG Icons</a></li>
+          <li><a href="http://fontawesome.io/" target="_blank">And Included 350+ Awesome Icons</a> </li>
+	  </ol>
+	  
+	  <h3>Images;</h3>
+	  <ol>
+	     <li>Slider Images -
+			<a href="http://wallpaperswide.com/night_in_the_city_2-wallpapers.html" target="_blank">Full Screen 1 - </a>
+			<a href="http://wallpaperswide.com/grey_bathroom-wallpapers.html" target="_blank">Full Screen 2 - </a>
+			<a href="http://wallpaperswide.com/misty_amsterdam-wallpapers.html" target="_blank">Full Screen 3 - </a>
+			<a href="http://wallpaperswide.com/winter_girl_3-wallpapers.html" target="_blank">Rev Slider 1 - </a>
+			<a href="http://wallpaperswide.com/empire_state_building_bw_edit-wallpapers.html" target="_blank">Rev Slider 2 - </a>
+			<a href="http://wallpaperswide.com/winter_joy-wallpapers.html" target="_blank">Rev Slider 3 - </a>
+			<a href="http://wallpaperswide.com/small_gray_squares-wallpapers.html" target="_blank">Extended Version 1</a>
+			<a href="http://wallpaperswide.com/pier_black_and_white-wallpapers.html" target="_blank">Extended Version 2</a>
+		 </li>
+		  <li><a href="http://wallpaperswide.com/smart_woman-wallpapers.html" target="_blank">Features</a>
+		  <li><a href="http://wallpaperswide.com/girls_9-wallpapers.html" target="_blank">Company History</a>
+		  <li><a href="http://wallpaperswide.com/empire_state_building_2-wallpapers.html" target="_blank">Why Wisten</a>
+		  <li><a href="http://wallpaperswide.com/girl_in_the_rain-wallpapers.html" target="_blank">Services</a>
+	  </ol>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
