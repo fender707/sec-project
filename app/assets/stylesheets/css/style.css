@@ -2635,7 +2635,7 @@
 		left:50%;
 		z-index:5;
 		padding:8px;
-		color:##444444;
+		color:#444444;
 		text-transform:uppercase;
 		-webkit-transform: translateX(-50%);
 		-moz-transform: translateX(-50%);
