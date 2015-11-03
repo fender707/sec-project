@@ -192,7 +192,7 @@
 		opacity:0.4;
 	}
 	.pattern:after{
-		background: url(../images/pattern.png);
+		background: image-url("pattern.png");
 		width:100%;
 		height:100%;
 		bottom:0;
@@ -203,29 +203,29 @@
 	}
 
 	.home-pattern-style{
-		background:url(../images/home-pattern.jpg) repeat;
+		background:image-url("home-pattern.jpg") repeat;
 		width:100%;
 		height:100%;
 	}
 
 	#slides .slides-container .image1{
-		background:url(../images/1.jpg) center fixed;
+		background:image-url("1.jpg") center fixed;
 	}
 
 	#slides .slides-container .image2{
-		background:url(../images/2.jpg) center fixed;
+		background:image-url("2.jpg") center fixed;
 	}
 
 	#slides .slides-container .image3{
-		background:url(../images/3.jpg) center fixed;
+		background:image-url("3.jpg") center fixed;
 	}
 
 	#slides .slides-container .image4{
-		background:url(../images/4.jpg) center fixed;
+		background:image-url("4.jpg") center fixed;
 	}
 
 	#slides .slides-container .image5{
-		background:url(../images/5.jpg) center fixed;
+		background:image-url("5.jpg") center fixed;
 	}
 
 	#slides .scrollable {
@@ -257,7 +257,7 @@
 		display: block;
 		width:74px;
 		height:74px;
-		background:url(../images/arrows.png);
+		background:image-url("arrows.png");
 		opacity:0;
 		-webkit-transition: all 0.5s;
 		-moz-transition: all 0.5s;
@@ -942,7 +942,7 @@
 /* Features */
 
 	#features{
-		background:url(../images/i1.jpg)top center repeat-x;
+		background:image-url("i1.jpg")top center repeat-x;
 		height:962x;
 		margin-top:20px;
 	}
@@ -952,7 +952,7 @@
 		height:606px;
 		margin:50px auto 0;
 		max-width:1030px;
-		background:url(../images/f-iphone.png) center center no-repeat;
+		background:image-url("f-iphone.png") center center no-repeat;
 	}
 
 /* Features Boxes */
@@ -1022,25 +1022,25 @@
 /* Features Box Strips */
 
 	.f1:after{
-		background:url(../images/f1.png) no-repeat;
+		background:image-url("f1.png") no-repeat;
 	}
 
 	.f2:after{
-		background:url(../images/f2.png) no-repeat;
+		background:image-url("f2.png") no-repeat;
 	}
 
 	.f3:after{
-		background:url(../images/f3.png) no-repeat;
+		background:image-url("f3.png") no-repeat;
 	}
 
 	.f4:after{
-		background:url(../images/f4.png) no-repeat;
+		background:image-url("f4.png") no-repeat;
 	}
 
 /* Testimonials */	
 
 	#testimonial{
-		background: url(../images/i5.jpg) center center fixed;
+		background: image-url("i5.jpg") center center fixed;
 		margin:60px auto 0;
 		clear: both;
 	}
@@ -1090,7 +1090,7 @@
 		width:23px;
 		height: 28px;
 		display:block;
-		background: url(../images/direction.png);
+		background: image-url("direction.png");
 	}
 
 	.testimonial ul.flex-direction-nav li a.flex-prev{
@@ -1236,7 +1236,7 @@
 	#history{
 		margin:60px auto 0;
 		min-height:1000px;
-		background:url(../images/i2.jpg) top center repeat fixed;
+		background:image-url("i2.jpg") top center repeat fixed;
 	}
 
 /* Timeline */
@@ -1244,7 +1244,7 @@
 	ul.timeline{
 		margin:40px auto 0;
 		width:100%;
-		background:url(../images/timeline-bg.jpg) center center repeat-y;
+		background:image-url("timeline-bg.jpg") center center repeat-y;
 		height:auto;
 		position:relative;
 		padding:0 0 80px;
@@ -1508,7 +1508,7 @@
 	.owl-buttons>div{
 		width:35px;
 		height:35px;
-		background-image:url(../images/team/controls.png);
+		background-image:image-url("team/controls.png");
 		color:black;
 		cursor:pointer
 	}
@@ -1583,7 +1583,7 @@
 
 	#why-wisten{
 		margin:50px auto 0;
-		background:url(../images/i3.jpg) center fixed;
+		background:image-url("i3.jpg") center fixed;
 		padding:0 0 30px;
 	}
 
@@ -1879,7 +1879,7 @@
 	}
 
 	#services .bg{
-		background:url(../images/i4.jpg) top center fixed;
+		background:image-url("i4.jpg") top center fixed;
 	}
 
 	.service-contents{
@@ -1977,7 +1977,7 @@
 /* Services Bottom*/
 
 	#services .bottom-bg{
-		background:url(../images/ipad.png) bottom center no-repeat;
+		background:image-url("ipad.png") bottom center no-repeat;
 		min-height:240px;
 		margin:80px auto;
 	}
@@ -2015,7 +2015,7 @@
 		height:100px;
 		top:68px;
 		left:-34px;
-		background:url(../images/spanbg2.png) center center no-repeat;
+		background:image-url("spanbg2.png") center center no-repeat;
 	}
 
 	.slide-s{
@@ -2030,7 +2030,7 @@
 /* Controls */
 
 	.carousel .s-controls{
-		background-image:url(../images/service-icons.png);
+		background-image:image-url("service-icons.png");
 		width:30px;
 		height:30px;
 		margin:20px;
@@ -2074,7 +2074,7 @@
 	}
 
 	.video-pattern{
-		background: url(../images/pattern.png);
+		background: image-url("pattern.png");
 		width:100%;
 		height:100%;
 		top:0;
@@ -2085,7 +2085,7 @@
 	}
 
 	.video-text{
-		background: url(../images/video-text.png) center center no-repeat;
+		background: image-url("video-text.png") center center no-repeat;
 		width:100%;
 		height:100%;
 		top:0;
@@ -2110,7 +2110,7 @@
 		width:23%;
 		margin:0 15px;
 		float:left;
-		background:url(../images/price-top-bg.jpg) top center repeat-x, white;
+		background:image-url("price-top-bg.jpg") top center repeat-x, white;
 		text-align:center;
 		cursor:default;
 		-webkit-transition: all 0.3s;
@@ -2234,7 +2234,7 @@
 /* Table Active Styles */
 
 	.packages .active{
-		background:url(../images/price-top-bg.jpg) top center repeat-x, #3d3d3d;
+		background:image-url("price-top-bg.jpg") top center repeat-x, #3d3d3d;
 	}
 
 	.packages .active ol li{
@@ -2880,7 +2880,7 @@
 	.sidebar ul li{
 		width:100%;
 		height:auto;
-		background:url(../images/li-arrow.png) center left no-repeat;
+		background:image-url("li-arrow.png") center left no-repeat;
 	}
 	
 	.sidebar ul li a{
@@ -2925,7 +2925,7 @@
 		width:100%;
 		height:100%;
 		display:block;
-		background:url(../images/back-top.png) no-repeat;
+		background:image-url("back-top.png") no-repeat;
 		opacity:0.1;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
