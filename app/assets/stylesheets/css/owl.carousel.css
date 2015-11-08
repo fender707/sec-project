@@ -38,9 +38,9 @@
 }
 	
 .owl-carousel .owl-item{
-	/*float: left;*/
-  display: inline-block;
+	float: left;
 }
+
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
