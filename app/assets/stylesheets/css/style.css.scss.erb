@@ -460,6 +460,10 @@
 		margin:20px 0 0;
 	}
 
+	.navigation .logo a img{
+		max-height:60px;
+	}
+
 /* Nav Menu */
 
 	.nav-menu{
@@ -788,16 +792,23 @@
 		top:0;
 	}
 
+	.about.inner {
+		text-align: center;
+	}
+
 	#about .about-content{
-		width:25%;
+		display: inline-block;
+		vertical-align: top;
+		width:30%;
 		height:auto;
 		min-height:276px;
 		background:#fff;
-		float:left;
+		/* float:left; */
 		cursor:pointer;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		transition: all 0.3s;
+		margin: 0 5%;
 	}
 
 	#about .about-content .icon{
@@ -1404,6 +1415,9 @@
 
 	#team{
 		padding:60px 0 0;
+		.inner {
+			border-top: 1px solid #f1f1f1;
+		}
 	}
 
 	.team-items{
@@ -1579,12 +1593,23 @@
 		color:#da2713;
 	}
 
-/* Why Wisten */
+/* Why Us */
 
-	#why-wisten{
+	#why-us{
 		margin:50px auto 0;
 		background:image-url("i3.jpg") center fixed;
 		padding:0 0 30px;
+		.big-fa {
+	    font-size: 24em;
+	  }
+	}
+
+	.q-mark {
+		float: left;
+    margin: 30px auto 20px;
+    margin-left: -40px;
+    width: 49%;
+    text-align: center;
 	}
 
 /* iphone image */
@@ -1642,7 +1667,7 @@
 
 /* Our Works */
 
-	#portfolio{
+	#ourprojects{
 		font-weight:300;
 	}
 
@@ -1874,11 +1899,11 @@
 
 /* Services */
 
-	#services{
+	#technologies{
 		margin:100px auto;
 	}
 
-	#services .bg{
+	#technologies .bg{
 		background:image-url("i4.jpg") top center fixed;
 	}
 
@@ -1976,7 +2001,7 @@
 
 /* Services Bottom*/
 
-	#services .bottom-bg{
+	#technologies .bottom-bg{
 		background:image-url("ipad.png") bottom center no-repeat;
 		min-height:240px;
 		margin:80px auto;

@@ -551,7 +551,7 @@ ul.timeline{
 	right:35%;
 }
 
-#services .bottom-bg{
+#technologies .bottom-bg{
 	background:none;
 }
 
@@ -563,7 +563,7 @@ ul.timeline{
 	font-size:20px;
 }
 
-#services .bottom-bg{
+#technologies .bottom-bg{
 	min-height:0;
 	margin:40px auto 0;
 }
