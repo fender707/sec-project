@@ -271,39 +271,11 @@ window.onload = function () {
 
 			'use strict';
 
-			var latlng = new google.maps.LatLng(18.411378,-66.102344);
+			var latlng = new google.maps.LatLng(37.7926074,-122.3989846);
 
 			var styles = [
 
-						 {
-							"featureType": "road",
-							"stylers": [
-							  { "color": "#000000" }
-							]
-						  },{
-							"featureType": "landscape",
-							"stylers": [
-							  { "color": "#141414" }
-							]
-						  },{
-							"elementType": "labels.text.fill",
-							"stylers": [
-							  { "color": "#808080" }
-							]
-						  },{
-							"featureType": "poi",
-							"stylers": [
-							  { "color": "#161616" }
-							]
-						  },{
-							"elementType": "labels.text",
-							"stylers": [
-							  { "saturation": 1 },
-							  { "weight": 0.1 },
-							  { "color": "#7f8080" }
-							]
-						  },{
-						  }
+						 
 
 						  ];
 
@@ -331,7 +303,7 @@ window.onload = function () {
 			
 			var map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-			var myLatlng = new google.maps.LatLng(18.411378,-66.102344);
+			var myLatlng = new google.maps.LatLng(37.7926074,-122.3989846);
 
 			var image = "<%= asset_path('marker.png') %>";
 			var marker = new google.maps.Marker({
