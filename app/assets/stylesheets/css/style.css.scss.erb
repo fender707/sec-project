@@ -2016,10 +2016,40 @@
 			background:image-url("i1.jpg")top center repeat-x;
 			height:962x;
 			margin-top:20px;
-			.slide-boxes {
+			.owl-item {
+				float: none;
+				display: inline-block;
+				margin: 0 5%;
+			}
+			.item {
+				border-bottom: 4px solid transparent;
+				&:hover {
+					border-bottom: 4px solid #e70000;
+					.fa-refresh, .fa-wrench {
+						-webkit-transition: all 0.2s;
+				    -moz-transition: all 0.2s;
+				    transition: all 0.2s;
+				    color: #fff;
+				  }
+				}
+			}
+			.circle {
+				border: 4px solid #999;
+				border-radius: 50%;
+				width: 131px;
+				height: 131px;
+				margin-left: auto;
+				margin-right: auto;
 				text-align: center;
-				.item {
+				&:after {
+					content: '';
 					display: inline-block;
+					vertical-align: middle;
+					height: 100%;
+				}
+				.fa-refresh, .fa-wrench {
+					font-size: 72px;
+			    vertical-align: middle;
 				}
 			}
 		}
