@@ -106,7 +106,7 @@ div.facebook .pp_arrow_next{background-image:image-url("img/prettyPhoto/facebook
 div.facebook .pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}
 div.facebook .pp_nav{margin-top:0}
 div.facebook .pp_nav p{font-size:15px;padding:0 3px 0 4px}
-div.facebook .pp_nav .pp_play{background:background-image:image-url("img/prettyPhoto/facebook/sprite.png") -1px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_nav .pp_play{background-image:image-url("img/prettyPhoto/facebook/sprite.png") -1px -123px no-repeat;height:22px;width:22px}
 div.facebook .pp_nav .pp_pause{background-image:image-url("img/prettyPhoto/facebook/sprite.png") -32px -123px no-repeat;height:22px;width:22px}
 div.facebook .pp_next:hover{background-image:image-url("img/prettyPhoto/facebook/btnNext.png") center right no-repeat;cursor:pointer}
 div.facebook .pp_previous:hover{background-image:image-url("img/prettyPhoto/facebook/btnPrevious.png") center left no-repeat;cursor:pointer}
@@ -137,7 +137,7 @@ a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-
 .pp_gallery ul a{border:1px rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}
 .pp_gallery ul a img{border:0}
 .pp_gallery li{display:block;float:left;margin:0 5px 0 0;padding:0}
-.pp_gallery li.default a{background:url(../img/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;display:block;height:33px;width:50px}
+.pp_gallery li.default a{{background-image:image-url("img/prettyPhoto/facebook/default_thumbnail.gif") 0 0 no-repeat;display:block;height:33px;width:50px}
 .pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next{margin-top:7px!important}
 a.pp_next{background-image:image-url("img/prettyPhoto/light_rounded/btnNext.png") 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}
 a.pp_previous{background-image:image-url("img/prettyPhoto/light_rounded/btnNext.png") 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}
