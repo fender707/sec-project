@@ -31,8 +31,8 @@ div.pp_default .pp_loaderIcon{background:url(../img/prettyPhoto/default/loader.g
 div.light_rounded .pp_top .pp_left{background:url(../img/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat}
 div.light_rounded .pp_top .pp_right{background:url(../img/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat}
 div.light_rounded .pp_next:hover{background:url(assets/img/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;cursor:pointer}
-div.light_rounded .pp_previous:hover{background:url(assets/img/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;cursor:pointer}
-div.light_rounded .pp_expand{background:url(../img/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.light_rounded .pp_previous:hover{background:url(img/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;cursor:pointer}
+div.light_rounded .pp_expand{background:url(img/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;cursor:pointer}
 div.light_rounded .pp_expand:hover{background:url(../img/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;cursor:pointer}
 div.light_rounded .pp_contract{background:url(../img/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;cursor:pointer}
 div.light_rounded .pp_contract:hover{background:url(../img/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;cursor:pointer}
