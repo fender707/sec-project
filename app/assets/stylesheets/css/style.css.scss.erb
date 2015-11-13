@@ -1435,6 +1435,11 @@
 		.owl-carousel .owl-item {
 		  display: inline-block;
 		  float: none;
+		  width: 100% !important;
+		  max-width: 500px;
+		  .img-circle {
+			  border-radius: 0;
+			}
 		}
 		.owl-wrapper {
 			width: auto !important;
@@ -1620,9 +1625,15 @@
 		margin:50px auto 0;
 		background:image-url("i3.jpg") center fixed;
 		padding:0 0 30px;
+		.panel {
+			border-bottom: none;
+		}
 		.big-fa {
 	    font-size: 24em;
 	  }
+	  .accordion-inner {
+		  font-size: 1.125em;
+		}
 	}
 
 	.q-mark {
