@@ -83,3 +83,29 @@
   border: none !important;
   width: 120px;
 }
+
+.team_descr {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  max-width: 500px;
+  width: 100%;
+  p {
+    font-size: 1.25em;
+    color: #717171;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 1170px) {
+    margin: 0 5%;
+  }
+}
+
+.team_member__wrapper {
+  display: inline-block;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  img {
+    max-width: 100%;
+  }
+}
