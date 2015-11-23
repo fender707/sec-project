@@ -441,6 +441,10 @@ ul.timeline{
 	margin:40px auto;
 }
 
+#slider .slide-icon {
+	margin-top: 10px;
+}
+
 }
 
 /* MAX 480px */
@@ -607,6 +611,11 @@ ul.timeline{
 	top: 20px ;
 }
 
+
+#slider .slide-icon {
+	margin-top: 10px;
+}
+
 }
 
 /* MAX 360px */
@@ -676,6 +685,10 @@ ul.timeline{
 
 .about-extended:after{
 	bottom:-15%;
+}
+
+#slider .slide-icon {
+	margin-top: 10px;
 }
 
 }
