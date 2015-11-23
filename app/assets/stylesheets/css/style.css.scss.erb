@@ -2063,11 +2063,6 @@
 			background:image-url("i1.jpg")top center repeat-x;
 			height:962x;
 			margin-top:20px;
-			.owl-item {
-				float: none;
-				display: inline-block;
-				margin: 0 5%;
-			}
 			.item {
 				border-bottom: 4px solid transparent;
 				&:hover {
@@ -2100,7 +2095,7 @@
 				}
 			}
 		}
-}
+	}
 
 	.service-bottom-text{
 		text-align:center;
@@ -2145,6 +2140,21 @@
 
 	.service-text .item{
 		height:180px;
+	}
+
+	#methods {
+		@media only screen and (min-width: 768px) {
+			.owl-wrapper {
+				text-align: center;
+				width: auto !important;
+			}
+			.owl-item {
+				display: inline-block;
+				vertical-align: top;
+	    	float: none;
+	    	margin: 0 5%;
+			}
+		}
 	}
 
 /* Controls */
