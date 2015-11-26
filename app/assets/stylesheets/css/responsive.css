@@ -560,7 +560,7 @@ ul.timeline{
 }
 
 #technologies .bottom-bg{
-	background:none;
+	background-size: 90% auto;
 }
 
 .service-bottom-text span:after{
@@ -637,7 +637,7 @@ ul.timeline{
   margin-left: -35px;
 }
 
-.tp-bullets {
+.tp-bullets.simplebullets {
 	display: none;
 }
 
@@ -729,7 +729,7 @@ ul.timeline{
   margin-left: -35px;
 }
 
-.tp-bullets {
+.tp-bullets.simplebullets {
 	display: none;
 }
 
