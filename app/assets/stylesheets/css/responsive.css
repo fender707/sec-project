@@ -629,8 +629,16 @@ ul.timeline{
   min-width: 100px;
 }
 
-.first_slide .blurred_bg{
+.first_slide .blurred_bg {
   margin-left: 5px;
+}
+
+.first_slide .blurred_bg.shift_text {
+  margin-left: -35px;
+}
+
+.tp-bullets {
+	display: none;
 }
 
 }
@@ -706,6 +714,23 @@ ul.timeline{
 
 #slider .slide-icon {
 	margin-top: 5px;
+}
+
+.first_slide .stext.h2 {
+  padding-top: 3px;
+  margin-top: 10px;
+}
+.first_slide .stext.h3 {
+  padding: 1px 0;
+  min-width: 100px;
+}
+
+.first_slide .blurred_bg.shift_text {
+  margin-left: -35px;
+}
+
+.tp-bullets {
+	display: none;
 }
 
 }
