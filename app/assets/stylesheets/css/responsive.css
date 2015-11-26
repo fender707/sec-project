@@ -442,7 +442,7 @@ ul.timeline{
 }
 
 #slider .slide-icon {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 }
@@ -613,7 +613,24 @@ ul.timeline{
 
 
 #slider .slide-icon {
-	margin-top: 10px;
+	margin-top: 5px;
+}
+
+.revslide.first_slide div.tp-caption:nth-child(n+4) {
+	margin-top: 7px !important;
+}
+
+.first_slide .stext.h2 {
+  padding-top: 3px;
+  margin-top: 10px;
+}
+.first_slide .stext.h3 {
+  padding: 1px 0;
+  min-width: 100px;
+}
+
+.first_slide .blurred_bg{
+  margin-left: 5px;
 }
 
 }
@@ -688,7 +705,7 @@ ul.timeline{
 }
 
 #slider .slide-icon {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 }
