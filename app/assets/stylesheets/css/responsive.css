@@ -637,7 +637,7 @@ ul.timeline{
   margin-left: -35px;
 }
 
-.tp-bullets.simplebullets {
+.tp-bullets .bullet {
 	display: none;
 }
 
@@ -729,7 +729,7 @@ ul.timeline{
   margin-left: -35px;
 }
 
-.tp-bullets.simplebullets {
+.tp-bullets .bullet {
 	display: none;
 }
 
