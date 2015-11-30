@@ -21,6 +21,19 @@ summary {
   display: block;
 }
 
+section#team {
+    padding-top: 0;
+}
+
+section#home {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+section#text-area {
+    padding-bottom: 0;
+}
+
 audio,
 canvas,
 video {
