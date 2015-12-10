@@ -12,9 +12,6 @@ else
 end
 
 use Rack::Rewrite do
-  r301 %r{.*}, "http://#{ENV['SITE_URL']}$&", :if => Proc.new { |rack_env|
-               rack_env['SERVER_NAME'].start_with?('www')}
-
-  r301 %r{^(.+)/$}, '$1'
+  r301 /.*/,  Proc.new {|path, rack_env| "http://www.#{rack_env['SERVER_NAME']}#{path}" },     :if => Proc.new {|rack_env| ! (rack_env['SERVER_NAME'] =~ /www\./i)}
 end
 run Rails.application
