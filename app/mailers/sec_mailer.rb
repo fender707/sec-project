@@ -4,7 +4,7 @@ class SecMailer < ApplicationMailer
     @email = from_address
     @name = name
     @body = body
-    mail(to: 'fender707@rambler.ru',
+    mail(to: 'yuriy@secventures.com',
          from: from_address,
          subject: subject
     )
